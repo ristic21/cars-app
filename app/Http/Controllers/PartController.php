@@ -37,7 +37,8 @@ class PartController extends Controller
      */
     public function show($id)
     {
-        //
+        $car = Part::find($id);
+        return view('single-part', compact('part'));
     }
 
     /**

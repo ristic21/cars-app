@@ -20,5 +20,6 @@ Route::get('/', [CarController::class, 'index']);
 Route::get('/cars', [CarController::class, 'index']);
 Route::get('/parts', [PartController::class, 'index']);
 Route::get('/cars/{id}', [CarController::class, 'show']);
+Route::get('/parts/{id}', [PartController::class, 'show']);
 
 
