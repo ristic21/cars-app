@@ -14,7 +14,7 @@
         <h3>{{$part->name}} for {{$part->car_name}}</h3>
         <h4>Color: {{$part->color}}</h4>
         <img src="{{$part->image}}" alt="" style="width: 450px">
-        <p>Description: ${{$part->description}}</p>
+        <p>Description: {{$part->description}}</p>
     </div>
   
     @include("./components/footer")
